@@ -61,8 +61,6 @@ The VM comes with a standard user for immediate access.
 | **Default User**     | `networking-vm` | `admin1234`   |
 | **Root/Sudo Access** | Same as above   | Same as above |
 
-> **IMPORTANT:** You are strongly advised to change the default password immediately after the first login for security purposes.
-
 ### 3. Network Configuration
 
 The default network setting is suitable for general use, but it must be adjusted for network auditing.
