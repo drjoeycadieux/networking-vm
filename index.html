@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Network Technician VM</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind to use Inter font and custom colors -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+            colors: {
+              primary: "#059669", // Emerald Green (Tech/Network feel)
+              secondary: "#1e3a8a", // Dark Blue
+              "background-light": "#f9fafb",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Use Inter Font -->
+    <style>
+      @import url("https://fonts.fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body class="bg-background-light font-sans text-gray-800">
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-primary">NetworkTech VM</h1>
+        <nav class="hidden md:flex space-x-6">
+          <a
+            href="#features"
+            class="text-gray-600 hover:text-primary transition duration-300"
+            >Features</a
+          >
+          <a
+            href="#tools"
+            class="text-gray-600 hover:text-primary transition duration-300"
+            >Tools Included</a
+          >
+          <a
+            href="#setup"
+            class="text-gray-600 hover:text-primary transition duration-300"
+            >Setup Guide</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-secondary text-white py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2
+          class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight"
+        >
+          The Ultimate Professional Network Technician VM
+        </h2>
+        <p class="text-xl opacity-80 mb-8 max-w-3xl mx-auto">
+          Pre-configured and ready-to-use virtual machine environment optimized
+          for network diagnostics, security testing, and system administration
+          tasks.
+        </p>
+        <div
+          class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4"
+        >
+          <a
+            href="#"
+            class="inline-block px-8 py-3 bg-primary text-white font-semibold text-lg rounded-lg shadow-lg hover:bg-green-700 transition duration-300 transform hover:scale-105"
+          >
+            Download VM Image (.ova)
+          </a>
+          <a
+            href="#tools"
+            class="inline-block px-8 py-3 bg-gray-100 text-secondary font-semibold text-lg rounded-lg shadow-lg hover:bg-gray-200 transition duration-300 transform hover:scale-105"
+          >
+            View Pre-Installed Tools
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-3xl font-bold text-center mb-12 text-secondary">
+          Why Choose This VM?
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Feature 1 -->
+          <div
+            class="p-6 bg-background-light rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-primary"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 text-primary mb-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9.75 17L9 20l-1 1h8l-1-1v-3.25M7 17h10M5 14h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v7a2 2 0 002 2z"
+              />
+            </svg>
+            <h4 class="text-xl font-semibold mb-2">
+              Optimized Environment (VMware Built)
+            </h4>
+            <p class="text-gray-600">
+              Built using VMware and a reliable Linux Desktop environment,
+              ensuring maximum stability and optimal performance for
+              virtualization.
+            </p>
+          </div>
+
+          <!-- Feature 2 -->
+          <div
+            class="p-6 bg-background-light rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-primary"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 text-primary mb-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              />
+            </svg>
+            <h4 class="text-xl font-semibold mb-2">All Tools Ready</h4>
+            <p class="text-gray-600">
+              Forget hours of setup. Essential networking and security tools are
+              pre-installed, configured, and ready to launch immediately.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+          <div
+            class="p-6 bg-background-light rounded-xl shadow-lg hover:shadow-xl transition duration-300 border-t-4 border-primary"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-10 w-10 text-primary mb-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
+            </svg>
+            <h4 class="text-xl font-semibold mb-2">Portable & Flexible</h4>
+            <p class="text-gray-600">
+              Delivered as a standard `.ova` file, easily importable into
+              VirtualBox, VMware, or any other major virtualization platform.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools Included Section -->
+    <section id="tools" class="py-16 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-3xl font-bold text-center mb-12 text-secondary">
+          Essential Tools Pre-Installed
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Column 1: Diagnostics & Analysis -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <h4 class="text-2xl font-semibold text-primary mb-4 border-b pb-2">
+              Diagnostics & Analysis
+            </h4>
+            <ul class="space-y-3 text-lg text-gray-700">
+              <li class="flex items-start">
+                <span class="text-primary mr-2 font-bold text-xl">&bull;</span>
+                <div>
+                  <strong class="font-medium">Wireshark:</strong> The industry
+                  standard for network protocol analysis.
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-primary mr-2 font-bold text-xl">&bull;</span>
+                <div>
+                  <strong class="font-medium">Nmap:</strong> Network discovery
+                  and security auditing tool.
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 2: Security & Configuration -->
+          <div class="bg-white p-6 rounded-xl shadow-lg">
+            <h4 class="text-2xl font-semibold text-primary mb-4 border-b pb-2">
+              Security & Configuration
+            </h4>
+            <ul class="space-y-3 text-lg text-gray-700">
+              <li class="flex items-start">
+                <span class="text-primary mr-2 font-bold text-xl">&bull;</span>
+                <div>
+                  <strong class="font-medium">Netcat (nc):</strong> Versatile
+                  network debugging tool for reading/writing across network
+                  connections.
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-primary mr-2 font-bold text-xl">&bull;</span>
+                <div>
+                  <strong class="font-medium">OpenSSH Client:</strong> Secure
+                  remote access is configured out-of-the-box.
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-primary mr-2 font-bold text-xl">&bull;</span>
+                <div>
+                  <strong class="font-medium">Aircrack-ng Suite:</strong> Tools
+                  for wireless network security auditing.
+                </div>
+              </li>
+              <li class="flex items-start">
+                <span class="text-primary mr-2 font-bold text-xl">&bull;</span>
+                <div>
+                  <strong class="font-medium">VS Code:</strong> Integrated
+                  development environment for scripting and configuration
+                  management.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Setup Guide Section -->
+    <section id="setup" class="py-16 bg-background-light">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h3 class="text-3xl font-bold text-center mb-12 text-secondary">
+          Getting Started: Quick Setup
+        </h3>
+        <div class="space-y-8">
+          <!-- Step 1 -->
+          <div class="flex items-start space-x-4">
+            <div
+              class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md"
+            >
+              1
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold text-secondary">
+                Download and Import
+              </h4>
+              <p class="text-gray-600 mt-1">
+                Download the `.ova` file (pre-built using VMware) and use your
+                virtualization platform's 'Import Appliance' function to load
+                the VM.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex items-start space-x-4">
+            <div
+              class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md"
+            >
+              2
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold text-secondary">
+                Default Credentials
+              </h4>
+              <p class="text-gray-600 mt-1">
+                The default user is
+                <code class="bg-gray-200 p-1 rounded font-mono">nettech</code>.
+                The password is
+                <code class="bg-gray-200 p-1 rounded font-mono">ubuntu25</code>.
+                <br class="mt-2" />
+                <span class="font-medium text-red-600">⚠️ IMPORTANT:</span>
+                Please change the password immediately after the first
+                successful login.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex items-start space-x-4">
+            <div
+              class="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-xl shadow-md"
+            >
+              3
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold text-secondary">
+                Network Configuration
+              </h4>
+              <p class="text-gray-600 mt-1">
+                The VM is set to use **NAT** by default. For network auditing or
+                sniffing, switch the adapter to **Bridged Adapter** mode in your
+                virtualization settings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-white py-8 mt-12">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm opacity-80"
+      >
+        <p>
+          &copy; 2025 NetworkTech VM Project. Professional tools for
+          professional technicians.
+        </p>
+        <p class="mt-2">
+          Documentation | Support | Privacy Policy (Placeholder Links)
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
